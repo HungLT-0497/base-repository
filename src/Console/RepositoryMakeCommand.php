@@ -40,9 +40,8 @@ class RepositoryMakeCommand extends GeneratorCommand
     protected function createRepositoryInterface()
     {
         $repositoryName= Str::studly(class_basename($this->argument('name')));
-
         $this->call('make:interface', [
-            'name' => "{$repositoryName}Interface",
+            'name' => "{$this->argument('name')}Interface",
         ]);
     }
 

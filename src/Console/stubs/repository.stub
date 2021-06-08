@@ -3,7 +3,7 @@
 namespace DummyNamespace;
 
 use HungLT\Repository\AbstractRepository;
-use App\Repositories\DummyClassInterface;
+use DummyNamespace\DummyClassInterface;
 
 class DummyClass extends AbstractRepository implements DummyClassInterface
 {
