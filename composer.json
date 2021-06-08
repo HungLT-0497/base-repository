@@ -1,0 +1,49 @@
+{
+    "name": "hunglt/base-repository-laravel",
+    "description": "Base repository implementation for Laravel",
+    "keywords": [
+      "laravel",
+      "repository",
+      "repository pattern",
+      "eloquent",
+      "repositories"
+    ],
+    "license": "BSD-2-Clause",
+    "authors": [
+      {
+        "name": "HungLT",
+        "email": "Hunglt@funtap.vn"
+      }
+    ],
+    "require": {
+      "php": ">=7.1"
+    },
+    "require-dev": {
+    },
+    "autoload": {
+      "psr-4": {
+        "HungLT\\": "src/"
+      }
+    },
+    "autoload-dev": {
+      "files": [
+        "tests/TestFunctions.php"
+      ],
+      "psr-4": {
+        "HungLT\\Test\\": "tests"
+      }
+    },
+    "extra": {
+      "laravel": {
+        "providers": [
+            "HungLT\\RepositoryServiceProvider"
+        ]
+      }
+    },
+    "archive" : {
+      "exclude": [
+        "/tests"
+      ]
+    }
+  }
+  
