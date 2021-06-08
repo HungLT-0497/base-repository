@@ -4,11 +4,12 @@
     <list default="true" id="93b91928-bb34-4660-919f-85a3401a7cf4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README1.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Console/RepositoryInterfaceMakeCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Console/RepositoryInterfaceMakeCommand.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Console/RepositoryMakeCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Console/RepositoryMakeCommand.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Console/stubs/repository.stub" beforeDir="false" afterPath="$PROJECT_DIR$/src/Console/stubs/repository.stub" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Console/stubs/repositoryInterface.stub" beforeDir="false" afterPath="$PROJECT_DIR$/src/Console/stubs/repositoryInterface.stub" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Repository/AbstractRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository/AbstractRepository.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Repository/Contracts/RepositoryInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository/RepositoryInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repository/RepositoryInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository/RepositoryInterface.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +64,7 @@
       <workItem from="1623121312499" duration="2792000" />
       <workItem from="1623127587251" duration="3244000" />
       <workItem from="1623134879583" duration="200000" />
-      <workItem from="1623135082829" duration="1754000" />
+      <workItem from="1623135082829" duration="1917000" />
     </task>
     <servers />
   </component>
