@@ -2,7 +2,7 @@
 
 namespace DummyNamespace;
 
-use HungLT\Repository\Contracts\RepositoryInterface;
+use HungLT\Repository\RepositoryInterface;
 
 interface DummyClass extends RepositoryInterface
 {

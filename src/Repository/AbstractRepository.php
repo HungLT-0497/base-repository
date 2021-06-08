@@ -4,7 +4,7 @@ namespace HungLT\Repository;
 
 use Illuminate\Support\Facades\App;
 use Illuminate\Database\Eloquent\Model;
-use HungLT\Repository\Contracts\RepositoryInterface;
+use HungLT\Repository\RepositoryInterface;
 use Illuminate\Database\Query\Builder;
 
 /**

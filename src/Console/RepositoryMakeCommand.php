@@ -32,7 +32,6 @@ class RepositoryMakeCommand extends GeneratorCommand
         if (parent::handle() === false && ! $this->option('force')) {
             return;
         }
-
         if ($this->option('interface')) {
             $this->createRepositoryInterface();
         }
