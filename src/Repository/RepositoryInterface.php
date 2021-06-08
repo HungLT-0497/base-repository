@@ -1,6 +1,6 @@
 <?php
 
-namespace HungLT\Repository\Contracts;
+namespace HungLT\Repository;
 
 use Exception;
 use Illuminate\Database\Eloquent\Model;
