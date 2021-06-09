@@ -21,4 +21,8 @@ class RepositoryServiceProvider extends ServiceProvider
     {
         $this->commands($this->commands);
     }
+    public function provides()
+    {
+        return ['repository'];
+    }
 }

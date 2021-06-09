@@ -55,9 +55,9 @@ interface RepositoryInterface
      * @param Model $model
      * @param array $attributes
      *
-     * @return bool
+     * @return object, array
      */
-    public function update(Model $model, array $attributes = []);
+    public function update($id, array $attributes = []);
 
     /**
      * Save a given record
@@ -71,13 +71,13 @@ interface RepositoryInterface
     /**
      * Delete the record from the database.
      *
-     * @param Model $model
+     * @param integer $id
      *
      * @return bool
      *
      * @throws Exception
      */
-    public function delete(Model $model);
+    public function delete($id);
 
     /**
      * get records from query.
@@ -174,7 +174,7 @@ interface RepositoryInterface
      * @return Model
      */
     public function makeModel();
-    
+
     /**
      * Reset model query
      *

@@ -64,9 +64,15 @@ class AbstractRepository implements RepositoryInterface
     /**
      * @inheritdoc
      */
-    public function update(Model $model, array $attributes = [])
+    public function update($id, array $attributes = [])
     {
-        return $model->update($attributes);
+        $result = $this->model::find($id);
+        if (!empty($result)){
+        $check = $result->update($attributes);
+        if ($check)
+            return $this->model::find($id);
+        }
+        return [];
     }
 
     /**
@@ -80,9 +86,14 @@ class AbstractRepository implements RepositoryInterface
     /**
      * @inheritdoc
      */
-    public function delete(Model $model)
+    public function delete($id): bool
     {
-        return $model->delete();
+        $result = $this->model::find($id);
+        if ($result) {
+            $check = $result->delete();
+            return true;
+        }
+        return false;
     }
 
     /**
